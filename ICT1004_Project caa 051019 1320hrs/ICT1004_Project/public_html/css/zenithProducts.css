@@ -1,0 +1,287 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Sep 2019, 5:27:31 PM
+    Author     : Darrell Er
+*/
+
+/*For Main page, do not touch*/
+html {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    background-color: beige;
+    padding: 20px 0 20px 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.loggerNCart a{
+    color: black !important;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+}
+
+footer {
+    font-family: sans-serif; 
+    font-size: 16px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700;
+    padding: 30px 0 20px 0;
+    margin: 10px 50px 10px 50px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: sans-serif; 
+    font-size: 60px; 
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 20px;
+}
+
+h2 {
+    font-family: sans-serif; 
+    font-size: 30px; 
+    text-transform: uppercase;
+    border-bottom: 10px solid grey;
+    margin: 45px 0 10px 0;
+    letter-spacing: 5px;
+}
+
+h3 {
+    font-family: sans-serif; 
+    font-size: 20px; 
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    margin: 0 0 0 0;
+}
+
+.fab {
+    color: black;
+    opacity: 0.85;
+    font-size: 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+.fab:hover {
+    opacity: 0.75;
+    color: grey;
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navbar-nav.navbar-center {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+li a {
+    text-align: center;
+    padding: 14px 16px;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 0 5px 0 5px;
+}
+
+.sliderword {
+    font-family: Quantico,sans-serif; 
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    opacity: 3;
+}
+
+.sliderphase {
+    font-family: Quantico,sans-serif; 
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.carousel-caption {
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.15); /* Black background with 0.5 opacity */
+}
+
+.img-fluid {
+    width: 700px;
+}
+
+.bannerheader {
+    font-family: sans-serif; 
+    font-size: 40px; 
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.bannertagline {
+    font-family: sans-serif; 
+    font-size: 25px; 
+    text-transform: capitalize;
+    font-weight: 300;
+    text-align: center;
+}
+
+.card-body {
+    margin: 0 0 0 0;
+}
+
+.card {
+    margin: 0 0 0 0;
+}
+
+.productimgresize {
+    height: 145px;
+    width: 315px;
+    margin-bottom: 15px;
+}
+
+.fitimage {
+    width: 100%;
+    object-fit: cover;
+}
+
+.productdescription {
+    font-family: sans-serif; 
+    font-size: 14px; 
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+}
+.productoption {
+    font-family: sans-serif; 
+    font-size: 14px; 
+    font-weight: 300;
+    text-align: center;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+.backingForPromo {
+    max-width: 100%;
+    height: 30px;
+    background: rgb(108, 117, 125);
+}
+
+.promoStatment {
+    text-align: center;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.loggerNCart {
+    color: black;
+    font-family: sans-serif; 
+    font-size: 18px;
+    float: right;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.loggerNCart:hover {
+    color: black;
+    opacity: 0.75;
+}
+
+.customerService {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-style: normal; 
+    font-variant: normal;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.customerService:hover {
+    color: black;
+    opacity: 0.75;
+}
+
+.iconLabel {
+    text-align: center;
+}
+
+.column {
+    width: 33.33%;
+    height: auto;
+}
+
+.newsletter_submit {
+    margin-top: 10px;
+    background: white;
+    border: 2px black solid;  
+}
+
+.newsletter_submit:hover {
+    opacity: 0.75;
+    color: black;
+}
+/*End of Main Page CSS*/
+
+.bob{
+    width:auto;
+    height:auto;
+    margin: 100px;
+    z-index: 9999;
+}
+
+
+/*Product Page (Men/Women) CSS*/
+.row {
+    padding-top: 20px;
+}
+
+.title {
+    text-align: left;
+    margin: 0 0 0 0;
+}
+/*End of Product Page (Men/Women) CSS*/
