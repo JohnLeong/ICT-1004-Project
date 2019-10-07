@@ -391,7 +391,10 @@ li a {
     margin: 20px 0 20px 0;
     text-align: center;
 }
-
+#genderbox {
+    width:100%;
+    display:inline;
+}
 /*End of Login CSS*/
 
 /*Shopping Cart CSS*/
@@ -601,7 +604,9 @@ li a {
     padding-left: 40px;
     color: white;
 }
-
+#locate_list img {
+    
+}
 .locate_list_item{
     transition: transform 0.6s;
 }
