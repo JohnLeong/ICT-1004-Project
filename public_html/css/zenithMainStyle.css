@@ -657,6 +657,7 @@ li a {
 }
 #profbox {
     font-family:sans-serif;
+    width:100%;
 }
 #profbox input {
     width:100%;
@@ -664,6 +665,11 @@ li a {
 #profbox label {
     border-bottom-style: solid;
     border-bottom-color:lightgray;
+}
+
+#profbox select {
+    min-width: 10%;
+    max-width: 100%;
 }
 /*End of profile css*/
 
