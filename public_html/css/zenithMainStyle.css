@@ -181,7 +181,6 @@ li a {
 
 .backingForPromo {
     max-width: 100%;
-    height: 30px;
     background: rgb(108, 117, 125);
 }
 
@@ -190,6 +189,7 @@ li a {
     color: white;
     display: inline-block;
     vertical-align: middle;
+    word-wrap: break-word;
 }
 
 .promoStatment a {
@@ -431,73 +431,74 @@ li a {
 .registering * {box-sizing: border-box}
 
 /* Full-width input fields */
- .registering input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+.registering input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
 }
 
 .registering input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
+    background-color: #ddd;
+    outline: none;
 }
 
 .registering hr {
-  border: 1px solid black;
-  margin-bottom: 25px;
+    border: 1px solid black;
+    margin-bottom: 25px;
 }
 
 /* Set a style for all buttons */
 .registering button {
-  background-color: whitesmoke;
-  border: 2px black solid;
-  text-transform: uppercase;
-  font-size: 16px;
-  color: black;
-  padding: 14px 20px;
-  margin: 8px 0;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.8;
+    background-color: whitesmoke;
+    border: 2px black solid;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
 }
 
 .registering button:hover {
-  opacity:1;
+    opacity:1;
 }
 
 /* Extra styles for the cancel button */
 .registering .cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
+    padding: 14px 20px;
+    background-color: #f44336;
 }
 
 /* Float cancel and signup buttons and add an equal width */
 .registering .cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
+    float: left;
+    width: 50%;
 }
 
 /* Add padding to container elements */
 .registering .container {
-  padding: 16px;
+    padding: 16px;
 }
 
 /* Clear floats */
 .registering .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
-  .registering .cancelbtn, .signupbtn {
-    width: 100%;
-  }
+    .registering .cancelbtn, .signupbtn {
+        width: 100%;
+    }
 }
+
 /*About us CSS*/
 .about-article{
     background-color: rgba(0, 0, 0, 0.6);
@@ -614,8 +615,8 @@ li a {
 }
 
 .row {
-  margin-right: -15px;
-  margin-left: -15px;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 .header-align-right {
     font-family: sans-serif; 
@@ -678,6 +679,7 @@ li a {
 .productoption {
     font-family: sans-serif; 
     font-size: 15px; 
+    
     font-weight: 300;
     text-align: center;
 }
