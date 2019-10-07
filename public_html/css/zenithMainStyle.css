@@ -578,6 +578,11 @@ li a {
 .about-person-img:hover{
     transform: scale(1.25);
 }
+
+#about_video_credits{
+    text-align: center;
+    color: white;
+}
 /* end of about us css*/
 
 /* Start of locate us css*/
