@@ -23,7 +23,6 @@ and open the template in the editor.
     </head>
 
     <body>
-
         <header>
             <!--Promo line-->
             <div class="backingForPromo">
@@ -99,7 +98,7 @@ and open the template in the editor.
                 <h2>Men's Footwear</h2>
                 <div class="row">
                     <!--Filter column-->
-                    <div class= "col-2">
+                    <div class= "col-xl-2 d-none d-xl-block"> <!--Hidden on all except XL-->
                         <div class="card">
                             <article class="card-group-item">
                                 <header class="card-header">
@@ -109,19 +108,23 @@ and open the template in the editor.
                                     <form>
                                         <label class="form-check">
                                             <input class="form-check-input" type="checkbox" value="">
-                                            <span class="form-check-label">Jordan</span>
+                                            <span class="form-check-label">Nike</span>
                                         </label> <!-- form-check.// -->
                                         <label class="form-check">
                                             <input class="form-check-input" type="checkbox" value="">
-                                            <span class="form-check-label">GORUCK</span>
+                                            <span class="form-check-label">Under Armour</span>
                                         </label>  <!-- form-check.// -->
                                         <label class="form-check">
                                             <input class="form-check-input" type="checkbox" value="">
-                                            <span class="form-check-label">Adidas</span>
+                                            <span class="form-check-label">adidas</span>
                                         </label>  <!-- form-check.// -->
                                         <label class="form-check">
                                             <input class="form-check-input" type="checkbox" value="">
                                             <span class="form-check-label">Dr. Martens</span>
+                                        </label>  <!-- form-check.// -->
+                                        <label class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="">
+                                            <span class="form-check-label">On</span>
                                         </label>  <!-- form-check.// -->
                                     </form>
                                 </div> <!-- card-body.// -->
@@ -154,7 +157,7 @@ and open the template in the editor.
 
                     </div>
                     <!--Products Column-->
-                    <div class= "col-10">
+                    <div class= "col-xl-10">
                         <!--Products Row 1-->
                         <div class ="row">
                             <div class="col-md-4">
@@ -207,10 +210,10 @@ and open the template in the editor.
                             <div class="col-md-4">
                                 <div class="card h-100">
                                     <div class="card-body">
-                                        <img class="productimgresize fitimage" src="img/MACV1.jpg" alt="GORUCK MACV-1"/>
-                                        <h3 class="card-title">GORUCK MACV-1</h3>
+                                        <img class="productimgresize fitimage" src="img/JORDAN4.jpg" alt="Air Jordan 4 Retro"/>
+                                        <h3 class="card-title">Air Jordan 4 Retro</h3>
                                         <p class="productdescription">Men's Shoe</p>
-                                        <p class="productoption">2 Colours</p>
+                                        <p class="productoption">1 Colour</p>
                                     </div>
                                     <div class="card-footer">
                                         <a href="#" class="btn btn-primary btn-sm">More Info</a>
@@ -247,15 +250,57 @@ and open the template in the editor.
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>  
+                        
+                        <!-- Product Row 4-->
                         <div class ="row">
                             <div class="col-md-4">
                                 <div class="card h-100">
                                     <div class="card-body">
-                                        <img class="productimgresize fitimage" src="img/IO.jpg" alt="GORUCK I/O CROSS TRAINERS"/>
-                                        <h3 class="card-title">GORUCK I/O CROSS TRAINERS</h3>
+                                        <img class="productimgresize fitimage" src="img/GORETEX.jpg" alt="Converse Chuck 70 GORE-TEX High Top"/>
+                                        <h3 class="card-title">Converse Chuck 70 GORE-TEX High Top</h3>
+                                        <p class="productdescription">Men's Shoe</p>
+                                        <p class="productoption">2 Colour</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary btn-sm">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <img class="productimgresize fitimage" src="img/NANO8.jpg" alt="REEBOK CROSSFIT NANO 8 FLEXWEAVE®"/>
+                                        <h3 class="card-title">REEBOK CROSSFIT NANO 8 FLEXWEAVE®</h3>
+                                        <p class="productdescription">Men's Trainers</p>
+                                        <p class="productoption">1 Colour</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary btn-sm">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <img class="productimgresize fitimage" src="img/FLEXAGON.jpg" alt="REEBOK FLEXAGON 2.0 FLEXWEAVE® LES MILLS® SHOES"/>
+                                        <h3 class="card-title">REEBOK FLEXAGON 2.0 FLEXWEAVE® LES MILLS® SHOES</h3>
+                                        <p class="productdescription">Men's Trainers</p>
+                                        <p class="productoption">2 Colours</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary btn-sm">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product Row 5-->
+                        <div class ="row">
+                            <div class="col-md-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <img class="productimgresize fitimage" src="img/JJ3.jpg" alt="REEBOK JJ III SHOES"/>
+                                        <h3 class="card-title">REEBOK JJ III SHOES</h3>
                                         <p class="productdescription">Men's Trainers</p>
                                         <p class="productoption">2 Colours</p>
                                     </div>
@@ -267,10 +312,65 @@ and open the template in the editor.
                             <div class="col-md-4">
                                 <div class="card h-100">
                                     <div class="card-body">
-                                        <img class="productimgresize fitimage" src="img/RN5.jpg" alt="NIKE FREE RN 5.0"/>
-                                        <h3 class="card-title">Nike Free RN 5.0</h3>
+                                        <img class="productimgresize fitimage" src="img/ZIGPULSE.jpg" alt="REEBOK ZIG PULSE SHOES"/>
+                                        <h3 class="card-title">REEBOK ZIG PULSE SHOES</h3>
                                         <p class="productdescription">Men's Running Shoe</p>
-                                        <p class="productoption">6 Colours</p>
+                                        <p class="productoption">2 Colours</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary btn-sm">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <img class="productimgresize fitimage" src="img/FLASHFILM.jpg" alt="REEBOK FLASHFILM SHOES"/>
+                                        <h3 class="card-title">REEBOK FLASHFILM SHOES</h3>
+                                        <p class="productdescription">Men's Running Shoe</p>
+                                        <p class="productoption">2 Colours</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary btn-sm">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Product Row 6-->
+                        <div class ="row">
+                            <div class="col-md-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <img class="productimgresize fitimage" src="img/CLOUDDIP.jpg" alt="On CLOUDDIP"/>
+                                        <h3 class="card-title">On CLOUD DIP</h3>
+                                        <p class="productdescription">Men's Running Shoe</p>
+                                        <p class="productoption">2 Colours</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary btn-sm">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <img class="productimgresize fitimage" src="img/CLOUDACE.jpg" alt="On Cloudace"/>
+                                        <h3 class="card-title">On Cloudace</h3>
+                                        <p class="productdescription">Men's Running Shoe</p>
+                                        <p class="productoption">4 Colours</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary btn-sm">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <img class="productimgresize fitimage" src="img/CLOUDROCK.jpg" alt="On Cloudrock Waterproof"/>
+                                        <h3 class="card-title">On Cloudrock Waterproof</h3>
+                                        <p class="productdescription">Men's Shoe</p>
+                                        <p class="productoption">3 Colours</p>
                                     </div>
                                     <div class="card-footer">
                                         <a href="#" class="btn btn-primary btn-sm">More Info</a>
