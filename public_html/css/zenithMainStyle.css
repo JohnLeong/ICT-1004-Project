@@ -700,6 +700,10 @@ li a {
     min-width: 10%;
     max-width: 100%;
 }
+
+#profbox p {
+    overflow-wrap: break-word;
+}
 /*End of profile css*/
 
 /*Product Page (Men/Women) CSS*/
