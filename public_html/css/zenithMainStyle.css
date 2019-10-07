@@ -521,14 +521,14 @@ li a {
     background-color: grey;
     background-image: url("../img/bg1.jpg");
     background-attachment: fixed;
-    background-size: 100%;
+    object-fit: cover;
 }
 
 #about-values{
     background-color: grey;
     background-image: url("../img/bg2.jpg");
     background-attachment: fixed;
-    background-size: 100%;
+    object-fit: cover;
 }
 
 .about-jumbotron h1{
@@ -542,8 +542,8 @@ li a {
     padding: 30px 30px 50px 30px;
     margin-bottom: 0px;
     display: block;
-    background-size: 100%;
     border-radius: 0px;
+    object-fit: cover;
 }
 
 .about-jumbotron iframe{
@@ -565,18 +565,18 @@ li a {
 }
 
 .about-person-img{
-    width: 180px;
-    height: 180px;
     margin: 15px 15px;
-    max-width: 25%;
-    max-height: 25%;
+    max-width: 20%;
+    max-height: 20%;
     transition: transform 0.6s;
 }
 
 .about-person-img:hover{
     transform: scale(1.25);
 }
+/* end of about us css*/
 
+/* Start of locate us css*/
 .mapouter{
     position:relative;
     text-align:right;
@@ -585,6 +585,10 @@ li a {
     margin-left: auto;
     margin-right: auto;
     max-width: 90%;
+}
+
+#gmap_canvas{
+    max-width: 100%;
 }
 
 #locate_list{
@@ -602,10 +606,22 @@ li a {
     transition: transform 0.6s;
 }
 
+.locate_list_item + img{
+    visibility: hidden;
+    max-height: 100%;
+    position: absolute;
+    left: 200px;
+    border: 5px solid white;
+}
+
 .locate_list_item:hover{
     transform: translate(25px);
 }
-/* end of about us css*/
+
+.locate_list_item:hover + img{
+    visibility: visible;
+}
+/* end of locate us css*/
 
 /* Start of profile css*/
 .profilepage {
@@ -642,6 +658,7 @@ li a {
 }
 #profbox {
     font-family:sans-serif;
+    width:100%;
 }
 #profbox input {
     width:100%;
@@ -649,6 +666,11 @@ li a {
 #profbox label {
     border-bottom-style: solid;
     border-bottom-color:lightgray;
+}
+
+#profbox select {
+    min-width: 10%;
+    max-width: 100%;
 }
 /*End of profile css*/
 
