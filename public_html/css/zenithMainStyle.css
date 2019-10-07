@@ -733,12 +733,44 @@ li a {
 .productoption {
     font-family: sans-serif; 
     font-size: 15px; 
-    
     font-weight: 300;
     text-align: center;
 }
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.monospaced { /*Product Details*/
+    font-family: 'Ubuntu Mono', monospaced;
+}
 /*End of Product Page (Men/Women) CSS*/
-
+/*Product Details CSS*/
+.wrapper{
+    width:70%;
+}
+@media(max-width:992px){
+    .wrapper{
+        width:100%;
+    } 
+}
+.panel-heading {
+    padding: 0;
+    border:0;
+}
+.panel-title>a, .panel-title>a:active{
+    display:block;
+    padding:15px;
+    color:#555;
+    font-size:16px;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    word-spacing:3px;
+    text-decoration:underline;
+}
 /*Contact us CSS*/
 .contact-form{
     background-color: white;
