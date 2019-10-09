@@ -16,7 +16,6 @@ html {
 }
 
 main {
-    background-color: beige;
     padding: 20px 0 20px 0;
     padding-left: 5%;
     padding-right: 5%;
@@ -32,14 +31,20 @@ header {
 }
 
 footer {
+    background-color: rgba(237, 236, 236, 1);
     font-family: sans-serif; 
     font-size: 16px; 
     font-style: normal; 
-    font-variant: normal; 
+    font-variant: normal;
     font-weight: 700;
-    padding: 30px 0 20px 0;
-    margin: 10px 50px 10px 50px;
     text-transform: uppercase;
+    
+}
+
+.brandName {
+    width: 550px; 
+    height:auto;
+    margin: 10px 0 10px 0;
 }
 
 h1 {
@@ -102,16 +107,29 @@ ul {
     overflow: hidden;
 }
 
-nav {
+.nav {
     text-transform: uppercase;
     text-align: center;
 }
 
-.navbar-nav.navbar-center {
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
+.navbar-brand {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight:500;
+    padding-right: 20px;
+    border-right: 2px grey solid;
+    letter-spacing: 5px;
+    background: url('index.html');
+}
+
+
+a.nav-link {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 100%;
+    color: #212529;
+    text-align: left;
+    background-color: #f8f9fa;
 }
 
 li a {
@@ -235,10 +253,16 @@ li a {
 .iconLabel a {
     text-decoration: none;
 }
+.footerStyler .col-md {
+    padding: 30px 0 20px 0;
+    margin: 10px 50px 10px 50px;
+}
 
-.column {
-    width: 33.33%;
-    height: auto;
+@media (max-width: 500px) {
+    .footerStyler .col-md {
+        text-align: center;
+        padding: 10px 0 20px 0;
+    }
 }
 
 .newsletter_submit {
@@ -254,47 +278,8 @@ li a {
 /*End of Main Page CSS*/
 
 /*Sizing Guide CSS*/
-.btn-group {
-    background: whitesmoke;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-.dropdown-toggle, .dropdown-menu { 
-    width: 1168px 
-}
-.btn-group img { 
-    margin-right: 10px 
-}
-.dropdown-toggle { 
-    padding-right: 50px 
-}
-.dropdown-toggle .glyphicon { 
-    margin-left: 20px; 
-    margin-right: -40px 
-}
-.dropdown-menu>li>a:hover { 
-    background: #f1f9fd 
-} 
-/* $search-blue */
-.dropdown-header { 
-    background: #ccc; 
-    font-size: 14px; 
-    font-weight: 700; 
-    padding-top: 5px; 
-    padding-bottom: 5px; 
-    margin-top: 10px; 
-    margin-bottom: 5px 
-}
+
 /*End of Sizing Guide CSS*/
-
-
-.bob{
-    width:auto;
-    height:auto;
-    margin: 100px;
-    z-index: 9999;
-}
-
 
 /*Login CSS*/
 .loginpage {

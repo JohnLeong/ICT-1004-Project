@@ -21,7 +21,7 @@ and open the template in the editor.
 
         <!--Icons for Web-->
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        
+
         <!--SEO-->
         <link rel="canonical" href="https://zenith.com/">
         <meta name="description" content="Buy high-quality shoes at great prices. Zenith offers a large variety of shoes from popular brands and provides world-wide shipping.">
@@ -29,6 +29,50 @@ and open the template in the editor.
     </head>
     <body>
         <header>
+            <!--Navigation Bar-->
+            <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">ZENITH</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                   
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li>
+                                
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="women.html">Women</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="men.html">Men</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="locateus.html">Locate Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="aboutus.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contactus.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav ml-auto">
+                            <li> <!-- Search bar -->
+                                <!-- Search form -->
+                                <form class="form-inline active-cyan-3 active-cyan-4">
+                                    <i class="fas fa-search" aria-hidden="true"></i>
+                                    <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
+                                           aria-label="Search">
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <br>
+            <br>
             <!--Promo line-->
             <div class="backingForPromo">
                 <div>
@@ -46,53 +90,11 @@ and open the template in the editor.
                 </p>
             </div>
             <!--Header -->
-
-            <h1> Zenith </h1>           
-
-            <!--Navigation Bar-->
-            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                <div class="container justify-content-center">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                        <ul class="nav navbar-nav navbar-center">
-                            <li class="nav-item">
-                                <a class="nav-link" href="sales.html">Sales</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="women.html">Women</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="men.html">Men</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="locateus.html">Locate Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="aboutus.html">About Us</a>
-                            </li>
-                            <!-- Put in Homepage 
-                            <li class="nav-item">
-                                <a class="nav-link" href="contactus.html">Contact Us</a>
-                            </li>-->
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-
-                            <li> <!-- Search bar -->
-                                <form class="navbar-form navbar-right" role="search" style="margin-right: 10px">
-                                    <div class="search-container">
-                                        <form>
-                                            <input type="text" placeholder="Search.." name="search">
-                                            <button type="submit">Submit</button>
-                                        </form>
-                                    </div>
-                                </form>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            <div>
+                <br>
+                <a href="index.html">
+                    <img class="brandName" src="img/zenith-vector.svg" alt="ZENITH BRAND"/>
+                </a>
         </header>
         <main>
             <div class="jumbotron about-jumbotron">
@@ -107,13 +109,13 @@ and open the template in the editor.
                         <div class="col-md-12">
                             <h3>Our History</h3>
                             <p class="about-p">Zenith started out as a group of friends refurbishing old shoes and reselling them as a way to help pay off their school fees.
-                            They did this using the money out of their own pockets, working from their own homes. Over time, they started gaining more popularity as people started spreading the word about their
-                            cheap, yet high quality products. Soon enough, the group of friends started their own little company using the money that they earned. They decided to branch out and 
-                            become a reseller for popular brands, using their already extensive network of followers.
+                                They did this using the money out of their own pockets, working from their own homes. Over time, they started gaining more popularity as people started spreading the word about their
+                                cheap, yet high quality products. Soon enough, the group of friends started their own little company using the money that they earned. They decided to branch out and 
+                                become a reseller for popular brands, using their already extensive network of followers.
                             </p>
                             <br>
                             <p class="about-p">Today, Zenith has thousands of fans all over the world, all eager to get their hands on the latest and greatest kicks. Though we started small, we have grown into a 
-                            large company providing shipping to almost all countries, all while preserving our values which helped us grow.</p>
+                                large company providing shipping to almost all countries, all while preserving our values which helped us grow.</p>
                         </div>
                     </article>
                 </div>
@@ -155,9 +157,9 @@ and open the template in the editor.
                 </div>
             </div>
         </main>
-        <footer>
+        <footer class="footerStyler">
             <div class="row">
-                <div class="column">
+                <div class="col-md">
                     <p>Customer Service</p>
                     <ul>
                         <li>
@@ -167,7 +169,7 @@ and open the template in the editor.
                             <a href="shippinginfo.html" class="customerService">Shipping Information</a>
                         </li>
                         <li>
-                            <a href="refundpolicy.html" class="customerService">Refund Policy</a>
+                            <a href="refundPolicy.html" class="customerService">Refund Policy</a>
                         </li>
                         <li>
                             <a href="locateus.html" class="customerService">Locate Us</a>
@@ -177,23 +179,23 @@ and open the template in the editor.
                         </li>
                     </ul>
                 </div>
-                <div class="column">
+                <div class="col-md">
                     <div class="iconLabel">
                         <p>Visit us at:</p>
                         <div >
                             <a href="https:\\www.facebook.com">
-                                    <i class="fab fa-facebook-square"></i>
+                                <i class="fab fa-facebook-square"></i>
                             </a>
                             <a href="https:\\www.instagram.com">
-                                    <i class="fab fa-instagram"></i>
+                                <i class="fab fa-instagram"></i>
                             </a>
                             <a href="https:\\www.twitter.com">
-                                    <i class="fab fa-twitter" ></i>
+                                <i class="fab fa-twitter" ></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="column">
+                <div class="col-md">
                     <p style="text-transform: uppercase"><i class="fas fa-newspaper"></i> Sign up to our mailing list</p>
                     <form class="form-signin">
                         <div class="form-label-group">
