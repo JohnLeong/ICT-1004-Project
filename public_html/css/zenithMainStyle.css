@@ -100,13 +100,6 @@ p {
     background-size: cover;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
 .nav {
     text-transform: uppercase;
     text-align: center;
@@ -769,3 +762,30 @@ li a {
     padding: 20px 20px;
 }
 /*End of Contact us CSS*/
+
+/*Start of Refund Policy*/
+.refundPolicyStyle {
+    background: white;
+    box-shadow: 5px 5px 5px 5px rgba(175,175,175,0.5);
+    padding: 20px 20px 50px 20px;
+}
+
+.refundContent {
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 0 40px 0px 40px;
+}
+
+.refundHeader {
+    font-family: sans-serif;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.refundIcon {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*End of Refund Policy*/

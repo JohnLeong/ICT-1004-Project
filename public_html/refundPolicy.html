@@ -36,11 +36,11 @@ and open the template in the editor.
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                   
+
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="nav navbar-nav navbar-left">
                             <li>
-                                
+
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="women.html">Women</a>
@@ -97,54 +97,89 @@ and open the template in the editor.
                 </a>
         </header>
         <main>
-            <div class="registering">
-                <form action="/action_page.php">
-                    <div class="container">
-                        <h2>Register</h2>
-                        <p>Please fill up this form to create an account.</p>
-                        <hr>
-
-                        <label for="email"><b>Email&#42;</b></label>
-                        <input type="text" placeholder="Enter Email" name="email" required>
-
-                        <label for="psw"><b>Password&#42;</b> (min. 8 character)</label>
-                        <input type="password" placeholder="Enter Password" name="psw" required>
-
-                        <label for="psw-repeat"><b>Repeat Password&#42;</b> (min. 8 character)</label>
-                        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-
-                        <label for="fname"><b>First Name</b></label>
-                        <input type="text" placeholder="Enter First Name" name="fname">
-
-                        <label for="lname"><b>Last Name&#42;</b></label>
-                        <input type="text" placeholder="Enter Last Name" name="lname" required>
-
-                        <label for="uname"><b>Username&#42;</b></label>
-                        <input type="text" placeholder="Enter Username" name="uname" required>
-
-                        <label for="gender"><b>Gender&#42;</b></label>
-                        <div class="row" id="genderbox">
-                            <div class="col-2">
-
-                                <label><input type="radio" name="gender" value="m" required>  Male</label>
+                <div class="refundPolicyStyle">
+                    <div class="refundContent">
+                        <div class="row">
+                            <p class="refundHeader">Refund Policy</p>
+                            <p>
+                                We accept returns and exchanges for up to 30 days from the day you received your order. 
+                                All returned merchandise must be in new/original and resalable condition with all tags 
+                                and original packaging attached. Please note final sale items cannot be returned or 
+                                exchanged.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md">
+                                <p class="refundIcon">Print <i class="fas fa-print"></i></p>
+                                <p>Print the Return Note from the attachment of your confirmation email. Do state the 
+                                    reason for the return of item(s).</p>
                             </div>
-                            <div class="col-4">
-
-                                <label><input type="radio" name="gender" value="f">  Female</label>
+                            <div class="col-md">
+                                <p class="refundIcon">Pack <i class="fas fa-box"></i></p>
+                                <p>Pack your item(s) and attach the Return Note on your package.</p>
+                            </div>
+                            <div class="col-md">
+                                <p class="refundIcon">Ship <i class="fas fa-ship"></i></p>
+                                <p>Ship the item to our returns address.</p>
                             </div>
                         </div>
-                        <hr>
-                        <p style="color:red"><i>&#42;Required Fields</i></p>
-                        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-
-                        <button type="submit" class="registerbtn">Register</button>
+                        <div class="row">
+                            <p>*Please note: Return/exchange handling times may take longer due to the holiday period.</p>
+                        </div>
+                        <div class="row">
+                            <p><b>Terms and Conditions for Return/Exchange:</b></p>
+                            <ul>
+                                <li>Selected items can be returned or exchanged within <b>30 days</b> from the date you received your order.</li>
+                                <li>
+                                    <p>
+                                        All returned merchandise must be in NEW/ORIGINAL and resalable condition 
+                                        with all tags and original packaging attached. We will not accept any 
+                                        items that are not in this condition.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Return shipping fees are the responsibility of the customer. 
+                                        We will not provide return labels or refund shipping fees.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Please ensure all returned items are well packaged.Please make sure the shoebox 
+                                        is packed with an outer layer. As the shoebox is part of the product, we will not 
+                                        accept returned footwear with a damaged shoebox.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If you have requested for a refund, the original shipping fee of your order will 
+                                        not be refunded.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If you have requested for an exchange, the shipping fee for the new order will 
+                                        be waived. If we do not have stock for the size you requested for exchange, 
+                                        we will issue a refund to your original payment method.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If the item you received is INCORRECT, MISSING, or DEFECTIVE, please contact us 
+                                        within 7 days from the date you received your order. Please include your order 
+                                        number, photographs of the item(s), and all related references upon receiving 
+                                        your package.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Upon dispute, ZENITH reserves the right to make the final decision on all returns cases.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-
-                    <div class="container signin">
-                        <p>Already have an account? <a href="login.html">Sign in</a>.</p>
-                    </div>
-                </form>
-            </div>
+                </div>
         </main>
         <footer class="footerStyler">
             <div class="row">
@@ -154,9 +189,9 @@ and open the template in the editor.
                         <li>
                             <a href="aboutus.html" class="customerService">About Us</a>
                         </li>    
-                        <li>
+                        <!--<li>
                             <a href="shippinginfo.html" class="customerService">Shipping Information</a>
-                        </li>
+                        </li>-->
                         <li>
                             <a href="refundPolicy.html" class="customerService">Refund Policy</a>
                         </li>
