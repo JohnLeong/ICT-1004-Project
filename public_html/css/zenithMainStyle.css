@@ -515,7 +515,7 @@ li a {
 .about-p{
     font-size: 20px;
     color: white;
-    text-align: justify;
+    text-align: left;
 }
 
 #about-history{
