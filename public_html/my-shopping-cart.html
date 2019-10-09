@@ -15,7 +15,7 @@ and open the template in the editor.
 
         <!--Website Main CSS-->
         <link rel="stylesheet" href="css/zenithMainStyle.css" />
-
+        <script defer src="js/main.js"></script>
         <!--Favicon for browser tab-->
         <link rel="shortcut icon" href="img/zshoe-icon.png"/>
 
@@ -111,8 +111,8 @@ and open the template in the editor.
                                         <th class="text-center align-middle py-3 px-0" style="width: 40px;"><a href="#" class="shop-tooltip float-none text-light" title="" data-original-title="Clear cart"><i class="ino ion-md-trash"></i></a></th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <tr>
+                                <tbody id="carttab">
+                                    <tr id="row1">
                                         <td class="p-4">
                                             <div class="media align-items-center">
                                                 <img src="img/AJ1.PNG" class="d-block ui-w-40 ui-bordered mr-4" alt="AIR JORDAN 1 RETRO HIGH OG - FIRST CLASS FLIGHT">
@@ -129,10 +129,10 @@ and open the template in the editor.
                                         <td class="text-right font-weight-semibold align-middle p-4">SGD 309.00</td>
                                         <td class="align-middle p-4"><input type="text" class="form-control text-center" value="1"></td>
                                         <td class="text-right font-weight-semibold align-middle p-4">SGD 309.00</td>
-                                        <td class="text-center align-middle px-0"><a href="#" class="shop-tooltip close float-none text-danger" title="" data-original-title="Remove">×</a></td>
+                                        <td class="text-center align-middle px-0"><a href="#" class="shop-tooltip close float-none text-danger" title="" data-original-title="Remove" onclick="delCartItem(1)">×</a></td>
                                     </tr>
 
-                                    <tr>
+                                    <tr id="row2">
                                         <td class="p-4">
                                             <div class="media align-items-center">
                                                 <img src="img/AM1.PNG" class="d-block ui-w-40 ui-bordered mr-4" alt="NIKE AIR MAX 90 PREMIUM 'NEW SPECIES'">
@@ -149,10 +149,10 @@ and open the template in the editor.
                                         <td class="text-right font-weight-semibold align-middle p-4">SGD 185.00</td>
                                         <td class="align-middle p-4"><input type="text" class="form-control text-center" value="1"></td>
                                         <td class="text-right font-weight-semibold align-middle p-4">SGD 185.00</td>
-                                        <td class="text-center align-middle px-0"><a href="#" class="shop-tooltip close float-none text-danger" title="" data-original-title="Remove">×</a></td>
+                                        <td class="text-center align-middle px-0"><a href="#" class="shop-tooltip close float-none text-danger" title="" data-original-title="Remove" onclick="delCartItem(2)">×</a></td>
                                     </tr>
 
-                                    <tr>
+                                    <tr id="row3">
                                         <td class="p-4">
                                             <div class="media align-items-center">
                                                 <img src="img/AM1.PNG" class="d-block ui-w-40 ui-bordered mr-4" alt="NIKE AIR MAX 90 PREMIUM 'NEW SPECIES'">
@@ -169,7 +169,7 @@ and open the template in the editor.
                                         <td class="text-right font-weight-semibold align-middle p-4">SGD 185.00</td>
                                         <td class="align-middle p-4"><input type="text" class="form-control text-center" value="1"></td>
                                         <td class="text-right font-weight-semibold align-middle p-4">SGD 185.00</td>
-                                        <td class="text-center align-middle px-0"><a href="#" class="shop-tooltip close float-none text-danger" title="" data-original-title="Remove">×</a></td>
+                                        <td class="text-center align-middle px-0"><a href="#" class="shop-tooltip close float-none text-danger" title="" data-original-title="Remove" onclick="delCartItem(3)">×</a></td>
                                     </tr>
                                 </tbody>
                             </table>
