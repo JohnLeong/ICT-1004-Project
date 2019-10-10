@@ -163,6 +163,24 @@ li a {
     font-size: 15px;
 }
 
+@media (max-width: 500px) {
+    .sliderword {
+        font-family: Quantico,sans-serif; 
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 30px;
+        opacity: 3;
+    }
+
+    .sliderphase {
+        font-family: Quantico,sans-serif; 
+        color: white;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+}
+
 .carousel-caption {
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.15); /* Black background with 0.5 opacity */
@@ -274,8 +292,10 @@ li a {
         padding: 10px 0 20px 0;
     }
     
-    ul {
+    .footerStyler ul {
         list-style-type: none;
+        text-align: center;
+        padding-left:0px;
     }
 }
 
@@ -969,4 +989,9 @@ li a {
     text-align: center;
 }
 
+@media (max-width: 500px) {
+    .refundContent {
+        padding: 0 20px 0px 20px;
+    }
+}
 /*End of Refund Policy*/
