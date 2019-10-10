@@ -521,32 +521,15 @@ li a {
     width: 100%;
 }
 
-@media(max-width:992px){
-    .about-article{
-        background-color: rgba(0, 0, 0, 0.6);
-        margin: 50px 50px;
-        padding: 10px 10px;
-        width: 100%;
-        overflow-x: hidden;
-    }
-}
-
-.about-article h3{
-    color: white;
-}
-
 .about-p{
     font-size: 20px;
     color: white;
     text-align: left;
 }
 
-@media(max-width:992px){
-    .about-p{
-        font-size: 16px;
-        color: white;
-        text-align: left;
-    }
+.about-jumbotron h1{
+    color: white;
+    text-align: center;
 }
 
 #about-history{
@@ -561,11 +544,6 @@ li a {
     background-image: url("../img/bg2.jpg");
     background-attachment: fixed;
     object-fit: cover;
-}
-
-.about-jumbotron h1{
-    color: white;
-    text-align: center;
 }
 
 .jumbotron.about-jumbotron{
@@ -611,6 +589,50 @@ li a {
     text-align: center;
     color: white;
 }
+
+@media(max-width:992px){
+    .about-article{
+        background-color: rgba(0, 0, 0, 0.6);
+        margin: 10px 10px;
+        padding: 10px 10px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .about-p{
+        font-size: 16px;
+        color: white;
+        text-align: left;
+    }
+
+    .about-jumbotron h1{
+        font-size: 35px;
+        letter-spacing: 7px;
+    }
+
+    .about-person-img{
+        margin: 5px 5px;
+        max-width: 30%;
+        max-height: 30%;
+    }
+
+    .about-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    #about-main {
+        padding: 0px 0 0px 0;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .about-jumbotron iframe{
+        width: 100vw; 
+        height: 56.25vw;
+    }
+
+}
 /* end of about us css*/
 
 /* Start of locate us css*/
@@ -635,8 +657,12 @@ li a {
     margin-bottom: 15px;
     margin-left: 0;
     margin-right: 0;
-    padding-left: 40px;
+    padding-left: 20px;
     color: white;
+}
+
+.locate_link{
+    padding: 14px 0px;
 }
 
 .locate_link:link{
@@ -675,6 +701,10 @@ li a {
 
     .locate_link:hover + img{
         visibility: hidden;
+    }
+    
+    .locate_link + img{
+        display: none;
     }
 }
 
