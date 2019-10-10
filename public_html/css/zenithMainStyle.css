@@ -640,6 +640,7 @@ li a {
     border: 5px solid white;
     max-width: 300px;
     bottom: -60px;
+    right: 450px;
 }
 
 .locate_list_item:hover{
