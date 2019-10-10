@@ -131,7 +131,7 @@ a.nav-link {
     background-color: #f8f9fa;
 }
 
-@media (max-width: 768px){
+@media (max-width: 1000px){
     .navbar {
         padding:4px 30px 4px 30px;
     }
