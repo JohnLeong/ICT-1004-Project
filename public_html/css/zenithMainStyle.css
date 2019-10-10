@@ -519,7 +519,16 @@ li a {
     margin: 50px 50px;
     padding: 30px 30px;
     width: 100%;
-    overflow-x: hidden;
+}
+
+@media(max-width:992px){
+    .about-article{
+        background-color: rgba(0, 0, 0, 0.6);
+        margin: 50px 50px;
+        padding: 10px 10px;
+        width: 100%;
+        overflow-x: hidden;
+    }
 }
 
 .about-article h3{
@@ -530,6 +539,14 @@ li a {
     font-size: 20px;
     color: white;
     text-align: left;
+}
+
+@media(max-width:992px){
+    .about-p{
+        font-size: 16px;
+        color: white;
+        text-align: left;
+    }
 }
 
 #about-history{
@@ -614,8 +631,8 @@ li a {
 #locate_list{
     display: block;
     list-style-type: disc;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 15px;
     margin-left: 0;
     margin-right: 0;
     padding-left: 40px;
@@ -650,6 +667,31 @@ li a {
 .locate_link:hover + img{
     visibility: visible;
 }
+
+@media(max-width:992px){
+    .locate_list_item:hover{
+        transform: none;
+    }
+
+    .locate_link:hover + img{
+        visibility: hidden;
+    }
+}
+
+.locate-article{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 50px 50px;
+    padding: 30px 30px;
+    width: 100%;
+}
+
+.locate-article h3{
+    border-bottom: 2px #9A9A9A solid;
+    color: white;
+    text-align: left;
+    font-size: 30px;
+}
+
 /* end of locate us css*/
 
 /* Start of profile css*/
