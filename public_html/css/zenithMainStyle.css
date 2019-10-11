@@ -21,6 +21,13 @@ main {
     padding-right: 5%;
 }
 
+@media (max-width: 375px) {
+    body {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
 .loggerNCart a{
     color: black !important;
 }
@@ -209,6 +216,15 @@ li a {
     text-align: center;
 }
 
+@media (max-width: 375px) {
+    .bannerheader {
+        font-size: 40px;
+    }
+    .bannertagline {
+        font-size: 20px;
+    }
+}
+
 .card-body {
     width: 100%;
     margin: 0 0 0 0;
@@ -284,6 +300,14 @@ li a {
 .footerStyler .col-md {
     padding: 30px 0 20px 0;
     margin: 10px 50px 10px 50px;
+}
+
+.footerStyler li {
+    margin: 8px;
+}
+
+.footerStyler a {
+    width: 100%;
 }
 
 @media (max-width: 500px) {
