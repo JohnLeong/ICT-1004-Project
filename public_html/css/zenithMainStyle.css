@@ -815,6 +815,10 @@ li a {
 #profbox p {
     overflow-wrap: break-word;
 }
+.genderbox {
+    width:100%;
+    white-space: nowrap;
+}
 /*End of profile css*/
 
 /*Product Page (Men/Women) CSS*/
