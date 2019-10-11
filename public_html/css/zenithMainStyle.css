@@ -21,13 +21,6 @@ main {
     padding-right: 5%;
 }
 
-@media (max-width: 375px) {
-    body {
-        max-width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
 .loggerNCart a{
     color: black !important;
 }
@@ -868,10 +861,8 @@ li a {
 .monospaced { /*Product Details*/
     font-family: 'Ubuntu Mono', monospaced;
 }
-
-
-
 /*End of Product Page (Men/Women) CSS*/
+
 /*Product Details CSS*/
 .wrapper{
     width:70%;
